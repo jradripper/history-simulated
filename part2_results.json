@@ -1,0 +1,145 @@
+{
+ "1 stowaway, not pregnant": {
+  "no trapping": [
+   0.0,
+   null
+  ],
+  "catch 39%/yr": [
+   0.0,
+   null
+  ],
+  "catch 63%/yr": [
+   0.0,
+   null
+  ],
+  "catch 86%/yr": [
+   0.0,
+   null
+  ]
+ },
+ "1 pregnant female": {
+  "no trapping": [
+   39.5,
+   4.3
+  ],
+  "catch 39%/yr": [
+   21.3,
+   6.7
+  ],
+  "catch 63%/yr": [
+   2.6,
+   20.5
+  ],
+  "catch 86%/yr": [
+   0.0,
+   null
+  ]
+ },
+ "2 animals": {
+  "no trapping": [
+   23.8,
+   4.6
+  ],
+  "catch 39%/yr": [
+   9.2,
+   7.8
+  ],
+  "catch 63%/yr": [
+   0.9,
+   18.5
+  ],
+  "catch 86%/yr": [
+   0.0,
+   null
+  ]
+ },
+ "5 animals": {
+  "no trapping": [
+   83.5,
+   4.0
+  ],
+  "catch 39%/yr": [
+   55.1,
+   6.6
+  ],
+  "catch 63%/yr": [
+   8.1,
+   18.2
+  ],
+  "catch 86%/yr": [
+   0.0,
+   null
+  ]
+ },
+ "10 animals": {
+  "no trapping": [
+   97.9,
+   3.2
+  ],
+  "catch 39%/yr": [
+   85.5,
+   5.8
+  ],
+  "catch 63%/yr": [
+   18.8,
+   18.8
+  ],
+  "catch 86%/yr": [
+   0.0,
+   null
+  ]
+ },
+ "72 animals": {
+  "no trapping": [
+   100.0,
+   1.1
+  ],
+  "catch 39%/yr": [
+   100.0,
+   2.0
+  ],
+  "catch 63%/yr": [
+   84.6,
+   10.3
+  ],
+  "catch 86%/yr": [
+   0.0,
+   null
+  ]
+ },
+ "steady trickle: 1 stowaway every 2.5 yrs, 50 years": {
+  "no trapping": [
+   90.7,
+   16.8
+  ],
+  "catch 39%/yr": [
+   48.0,
+   27.1
+  ],
+  "catch 63%/yr": [
+   4.1,
+   35.0
+  ],
+  "catch 86%/yr": [
+   0.0,
+   null
+  ]
+ },
+ "robustness (% established; recruits and death varied +-50%)": {
+  "2 animals, no trapping": {
+   "median": 25.0,
+   "p10": 11.7,
+   "p90": 38.3
+  },
+  "2 animals, catch 63%/yr": {
+   "median": 2.5,
+   "p10": 0.0,
+   "p90": 12.6
+  },
+  "trickle, catch 63%/yr": {
+   "median": 0.4,
+   "p10": 0.0,
+   "p90": 40.2
+  }
+ }
+}

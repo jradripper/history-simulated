@@ -1,0 +1,102 @@
+{
+ "kauai_no_mongoose": {
+  "rats_end": 5000,
+  "birds_end": 50.0,
+  "mongoose_end": 0,
+  "rats_pct_of_start": 100.0,
+  "birds_pct_of_start": 100.0,
+  "year_birds_below_10pct": null
+ },
+ "real_day_hunter": {
+  "rats_end": 4512,
+  "birds_end": 0.0,
+  "mongoose_end": 300,
+  "rats_pct_of_start": 90.2,
+  "birds_pct_of_start": 0.0,
+  "year_birds_below_10pct": 10.0
+ },
+ "whatif_night_hunter": {
+  "rats_end": 2084,
+  "birds_end": 0.0,
+  "mongoose_end": 301,
+  "rats_pct_of_start": 41.7,
+  "birds_pct_of_start": 0.0,
+  "year_birds_below_10pct": 10.0
+ },
+ "sweep_overlap_rats%_birds%_mongoose": [
+  [
+   0.0,
+   100.0,
+   0.0,
+   300
+  ],
+  [
+   0.1,
+   93.5,
+   0.0,
+   300
+  ],
+  [
+   0.2,
+   87.0,
+   0.0,
+   300
+  ],
+  [
+   0.3,
+   80.5,
+   0.0,
+   300
+  ],
+  [
+   0.4,
+   74.0,
+   0.0,
+   300
+  ],
+  [
+   0.5,
+   67.6,
+   0.0,
+   300
+  ],
+  [
+   0.6,
+   61.1,
+   0.0,
+   301
+  ],
+  [
+   0.7,
+   54.6,
+   0.0,
+   301
+  ],
+  [
+   0.8,
+   48.2,
+   0.0,
+   301
+  ],
+  [
+   0.9,
+   41.7,
+   0.0,
+   301
+  ],
+  [
+   1.0,
+   35.2,
+   0.0,
+   301
+  ]
+ ],
+ "robustness_real": {
+  "rats_pct_median": 90.1,
+  "rats_pct_p10": 63.2,
+  "rats_pct_p90": 97.9,
+  "rats_eliminated_share": 0.002,
+  "birds_below_10pct_share": 0.938,
+  "birds_pct_median": 0.0
+ }
+}
