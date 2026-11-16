@@ -1,0 +1,33 @@
+2000 replays per setting. Averages (middle 90% of games in brackets).
+
+warning | ships closed up (of 4) | fighters up (of 94) | torpedo hits | battleships sunk by torpedo | Japanese planes lost
+   0 min | 0.0 [0-0] | 0 [0-0] | 19 [14-24] | 2.4 [2-3] | 9 [5-15]
+  10 min | 0.0 [0-0] | 0 [0-0] | 17 [11-22] | 2.3 [1-3] | 11 [6-17]
+  20 min | 0.6 [0-2] | 2 [0-5] | 16 [11-21] | 2.0 [1-3] | 12 [7-18]
+  35 min | 4.0 [4-4] | 24 [14-34] | 15 [11-20] | 0.8 [0-2] | 18 [11-25]
+  53 min | 4.0 [4-4] | 58 [49-67] | 15 [10-19] | 0.7 [0-2] | 26 [18-35]
+  20 min: games with every exposed battleship closed up: 0%; games with 10+ fighters up: 0%; games with fewer battleships sunk than the zero-warning average: 77%
+  35 min: games with every exposed battleship closed up: 100%; games with 10+ fighters up: 100%; games with fewer battleships sunk than the zero-warning average: 100%
+  53 min: games with every exposed battleship closed up: 100%; games with 10+ fighters up: 100%; games with fewer battleships sunk than the zero-warning average: 100%
+
+STRESS TEST 1: every assumed input changed by up to half, 300 worlds, 200 replays each (35 min warning)
+  fighters up at 35 min: 7 to 65
+  torpedo hits at 35 min: 8 to 22  (zero warning: 14 to 25)
+  battleships sunk at 35 min: 0.1 to 2.0  (zero warning: 2.1 to 2.7)
+  Japanese lost at 35 min: 13 to 29  (zero warning: 7 to 11)
+  worlds where 35 min sinks fewer battleships than zero: 100%
+  worlds where 35 min still leaves 10+ torpedo hits: 87%
+  worlds where 35 min still leaves at least one battleship sunk on average: 47%
+
+STRESS TEST 2: break it on purpose (35 min warning)
+  everything on         : hits 15, sunk 0.7, Japanese lost 18
+  doors never shut      : hits 15, sunk 2.2, Japanese lost 17
+  guns never fire early : hits 19, sunk 1.1, Japanese lost 15
+  no fighters take off  : hits 16, sunk 0.8, Japanese lost 12
+  fighters on 5-minute alert : fighters up 94, hits 14, sunk 0.6, Japanese lost 35
+
+REAL-RECORD CHECK
+  zero warning, model: 19 torpedo hits, 2.4 battleships sunk by torpedo, 9 Japanese planes lost
+  real morning: 19-21 torpedo hits; Oklahoma, West Virginia, California sunk by torpedo; 9 first-wave planes lost
+  ship guns fully ready, no fighters, model: 12 of 183 lost = 7%
+  real second wave, which met alert guns: 20 of 167 lost = 12%  (model is cautious)

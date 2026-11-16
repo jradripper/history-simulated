@@ -1,5 +1,7 @@
 # Mongoose island simulations
 
+> Also in this repo: [`pearl-harbor-radar/`](pearl-harbor-radar/), the simulation from *What If Someone Had Believed the Radar at Pearl Harbor?*
+
 Code for the two toy models in the video *The Island That Said No* (the Hawaiian island with no breeding mongooses).
 
 These are simple models with assumed inputs. They show how the system behaves. They are not a forecast, and they are not fitted to field data. Mongooses are not established on Kauaʻi.
