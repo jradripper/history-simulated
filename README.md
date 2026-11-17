@@ -6,6 +6,7 @@ The code behind each simulation video on the channel. Every video gets its own f
 |---|---|---|
 | [`mongoose-island/`](mongoose-island/) | *The Island That Said No* | What happened after 72 mongooses were released in Hawaiʻi in 1883, and what it would take for them to reach Kauaʻi. |
 | [`pearl-harbor-radar/`](pearl-harbor-radar/) | *What If Someone Had Believed the Radar at Pearl Harbor? I Simulated It* | The first 15 minutes of the attack, replayed with a head start of 0 to 53 minutes. |
+| [`covid-one-week-earlier/`](covid-one-week-earlier/) | *What If America Had Stayed Home One Week Earlier? (I Simulated It)* | Spring 2020 in the United States, replayed with the start of staying home moved earlier or later, and checked against the Columbia study. |
 
 ## Run any of them
 
