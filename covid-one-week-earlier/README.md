@@ -1,6 +1,6 @@
 # COVID: what if America had stayed home one week earlier?
 
-Code for the simulation in the video *What If America Had Stayed Home One Week Earlier? (I Simulated It)*.
+Code for the simulation in the video *What If America Stayed Home 1 Week Earlier? (COVID)*.
 
 The Columbia study the video is built around marks 15 March 2020 as the day the United States began staying home. This model asks what moving that one date does: it keeps the same virus and the same behaviour, shifts the start of distancing earlier or later, and counts deaths up to 3 May 2020.
 
