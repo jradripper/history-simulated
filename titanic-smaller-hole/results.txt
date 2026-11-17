@@ -1,0 +1,52 @@
+TUNED spill width: 0.03 m (set so the real openings give 160 minutes)
+Total opening: 1.115 m2 = 12.0 sq ft
+
+REAL NIGHT (tuned): lost after 2 h 40 min
+    1 min:     549 t aboard, bow down  0.1 deg, coming in   512 t/min
+   10 min:   5,132 t aboard, bow down  1.2 deg, coming in   465 t/min
+   20 min:   9,144 t aboard, bow down  2.2 deg, coming in   339 t/min
+   40 min:  13,783 t aboard, bow down  3.3 deg, coming in   144 t/min
+   60 min:  15,640 t aboard, bow down  3.6 deg, coming in    65 t/min
+   90 min:  17,541 t aboard, bow down  4.0 deg, coming in    67 t/min
+  120 min:  19,856 t aboard, bow down  4.5 deg, coming in    91 t/min
+  150 min:  23,786 t aboard, bow down  6.3 deg, coming in   210 t/min
+
+CHECK AGAINST PUBLISHED WORK
+  water aboard after 40 min: this model 13,783 t | Wilding 1912 16,256 t
+  first-hour average inflow: this model 261 t/min (lowest 65) | Paik et al. 2025 243 t/min (lowest 138)
+  pumps: 11.4 t/min, about 1/23 of the first-hour inflow in this model
+
+THE DIAL: size of the openings (share of the real size)
+ share  sq ft     m2  time afloat
+  2.00   24.0   2.23  1 h 39 min
+  1.50   18.0   1.67  2 h 00 min
+  1.00   12.0   1.11  2 h 40 min
+  0.75    9.0   0.84  3 h 16 min
+  0.60    7.2   0.67  3 h 50 min
+  0.50    6.0   0.56  4 h 23 min
+  0.40    4.8   0.45  5 h 11 min
+  0.25    3.0   0.28  7 h 25 min
+  0.10    1.2   0.11  still afloat after 12 hours
+
+Largest opening that still lasts 270 min (first lifeboat reached): 0.48 of real = 5.8 sq ft
+
+WHICH ROOMS ARE OPEN (same opening per room as the real night)
+  first 2 rooms open: still afloat after 12 hours
+  first 3 rooms open: still afloat after 12 hours
+  first 4 rooms open: still afloat after 12 hours
+  first 5 rooms open: 3 h 31 min
+  first 6 rooms open: 2 h 40 min
+  HEAD-ON TEST: first 4 rooms wide open (20 sq ft each): still afloat after 12 hours
+  first 5 rooms wide open: 1 h 59 min
+
+STRESS TEST 1: every guess changed by up to half, then re-tuned to the real 160 minutes (60 worlds)
+  worlds that can match the real night: 22 of 60
+  half-size openings last 1.5 to 1.9 times as long (middle 90%), median 1.7, lowest 1.5
+  worlds where half-size openings last longer: 100%
+  worlds where half-size openings last to 4:00 am (260 min): 59%
+  worlds where the ship floats with the first 4 rooms wide open: 55%
+
+STRESS TEST 2: break it on purpose
+  walls with no top (nothing can spill): 6 h 43 min
+  no walls at all (every wall 3 m high): 1 h 46 min
+  walls one deck higher (+2.7 m): 3 h 51 min
