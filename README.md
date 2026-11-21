@@ -8,10 +8,11 @@ The code behind each simulation video on the channel. Every video gets its own f
 | [`pearl-harbor-radar/`](pearl-harbor-radar/) | *What If Someone Had Believed the Radar at Pearl Harbor? I Simulated It* | The first 15 minutes of the attack, replayed with a head start of 0 to 53 minutes. |
 | [`covid-one-week-earlier/`](covid-one-week-earlier/) | *What If America Stayed Home 1 Week Earlier? (COVID)* | Spring 2020 in the United States, replayed with the start of staying home moved earlier or later, and checked against the Columbia study. |
 | [`titanic-smaller-hole/`](titanic-smaller-hole/) | *The Hole That Sank Titanic Was Smaller Than a Door. I Simulated Half.* | Titanic's flooding, replayed with smaller openings and with only the first four rooms open, and checked against the 1912 estimate and the 2025 University College London study. |
+| [`nvidia-without-jensen/`](nvidia-without-jensen/) | *I Simulated Nvidia Without Jensen 20,000 Times* | Nvidia's share price over the next two years, run 20,000 times from the 18 November 2026 close, with one dial for what losing the founder costs. Odds, not a forecast and not financial advice. |
 
 ## Run any of them
 
-You need Python 3 and NumPy.
+You need Python 3 and NumPy (the Nvidia model also needs pandas; see its README).
 
 ```
 pip install numpy
